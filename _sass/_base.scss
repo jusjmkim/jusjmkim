@@ -61,10 +61,6 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
-    margin-left: $spacing-unit;
-}
-
 li {
     > ul,
     > ol {
@@ -183,12 +179,18 @@ pre {
 }
 
 /**
- *  Icons 
+ *  Icon
 */
+.icons {
+  width: $icon-width * 6;
+  margin: 0 auto;
+}
+
 .icon {
-  width: 50px;
-  height: 50px;
+  width: $icon-width;
+  height: $icon-width;
   float: left;
+  padding: 10px;
   path {
     fill: $grey-color;
   }
@@ -207,4 +209,29 @@ pre {
   width: 30%;
   height: 30%;
   float: left;
+}
+
+@media (max-width: 600px) {
+  .profile-picture {
+    width: 60%;
+    height: 60%;
+  }
+
+  .picture-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/**
+  *  Introduction
+*/
+.introduction {
+  width: 60%;
+  margin-left: $spacing-unit;
+  float: left;
+}
+
+.education {
+  margin-left: $spacing-unit;
 }
