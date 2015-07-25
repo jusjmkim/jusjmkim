@@ -12,6 +12,7 @@ permalink: /projects/
     <h2>
       <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
     </h2>
+    <p class="project-description">{{ project.description }}</p>
   </li>
   {% endfor %}
 </ul>
