@@ -1,0 +1,14 @@
+# Site settings
+title: Justin Kim
+email: justinjmkim@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Justin Kim. Studying Computational Biology and Healthcare Management at the
+  University of Pennsylvania. I am passionate about technology and healthcare.
+  Currently, Ruby on Rails Instructor.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://justinjmkim.com" # the base hostname & protocol for your site
+twitter_username: jusjmkim
+github_username:  jusjmkim
+
+# Build settings
+markdown: kramdown
