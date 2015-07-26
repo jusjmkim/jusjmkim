@@ -26,8 +26,8 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
+h1, h3, h4, h5, h6,
+blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
@@ -211,18 +211,6 @@ pre {
   float: left;
 }
 
-@media (max-width: 600px) {
-  .profile-picture {
-    width: 60%;
-    height: 60%;
-  }
-
-  .picture-wrapper {
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-
 /**
   *  Introduction
 */
@@ -234,4 +222,6 @@ pre {
 
 .education {
   margin-left: $spacing-unit;
+  margin-top: 0;
+  margin-bottom: 0;
 }
